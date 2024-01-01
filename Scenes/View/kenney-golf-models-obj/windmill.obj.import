@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/windmill.obj-f106e8b1c0f867abac96363859cecf1c.mesh"
+
+[deps]
+
+files=[ "res://.import/windmill.obj-f106e8b1c0f867abac96363859cecf1c.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/windmill.obj"
+dest_files=[ "res://.import/windmill.obj-f106e8b1c0f867abac96363859cecf1c.mesh", "res://.import/windmill.obj-f106e8b1c0f867abac96363859cecf1c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

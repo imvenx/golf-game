@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/split.obj-5aba7888821ff11bd9e2708b3d808dcf.mesh"
+
+[deps]
+
+files=[ "res://.import/split.obj-5aba7888821ff11bd9e2708b3d808dcf.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/split.obj"
+dest_files=[ "res://.import/split.obj-5aba7888821ff11bd9e2708b3d808dcf.mesh", "res://.import/split.obj-5aba7888821ff11bd9e2708b3d808dcf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

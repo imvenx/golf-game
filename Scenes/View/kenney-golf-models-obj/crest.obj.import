@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crest.obj-d072ec0c3ac2fef35230d0dd9c18a973.mesh"
+
+[deps]
+
+files=[ "res://.import/crest.obj-d072ec0c3ac2fef35230d0dd9c18a973.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/crest.obj"
+dest_files=[ "res://.import/crest.obj-d072ec0c3ac2fef35230d0dd9c18a973.mesh", "res://.import/crest.obj-d072ec0c3ac2fef35230d0dd9c18a973.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

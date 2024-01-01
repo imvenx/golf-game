@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tunnel-narrow.obj-e86c66b8d12355030077fecb43d4fb0e.mesh"
+
+[deps]
+
+files=[ "res://.import/tunnel-narrow.obj-e86c66b8d12355030077fecb43d4fb0e.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/tunnel-narrow.obj"
+dest_files=[ "res://.import/tunnel-narrow.obj-e86c66b8d12355030077fecb43d4fb0e.mesh", "res://.import/tunnel-narrow.obj-e86c66b8d12355030077fecb43d4fb0e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

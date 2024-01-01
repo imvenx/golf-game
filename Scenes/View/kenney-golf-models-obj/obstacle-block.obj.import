@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/obstacle-block.obj-411ec765a015c1e5284f15baee2f7058.mesh"
+
+[deps]
+
+files=[ "res://.import/obstacle-block.obj-411ec765a015c1e5284f15baee2f7058.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/obstacle-block.obj"
+dest_files=[ "res://.import/obstacle-block.obj-411ec765a015c1e5284f15baee2f7058.mesh", "res://.import/obstacle-block.obj-411ec765a015c1e5284f15baee2f7058.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

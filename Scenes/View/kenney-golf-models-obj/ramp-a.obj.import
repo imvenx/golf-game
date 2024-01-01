@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ramp-a.obj-819f35e4f37d5e174de1998b8df37173.mesh"
+
+[deps]
+
+files=[ "res://.import/ramp-a.obj-819f35e4f37d5e174de1998b8df37173.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/ramp-a.obj"
+dest_files=[ "res://.import/ramp-a.obj-819f35e4f37d5e174de1998b8df37173.mesh", "res://.import/ramp-a.obj-819f35e4f37d5e174de1998b8df37173.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/round-large-corner.obj-c4ee6b577b3a65343a0daab511c3745f.mesh"
+
+[deps]
+
+files=[ "res://.import/round-large-corner.obj-c4ee6b577b3a65343a0daab511c3745f.mesh" ]
+
+source_file="res://Scenes/View/kenney-golf-models-obj/round-large-corner.obj"
+dest_files=[ "res://.import/round-large-corner.obj-c4ee6b577b3a65343a0daab511c3745f.mesh", "res://.import/round-large-corner.obj-c4ee6b577b3a65343a0daab511c3745f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
