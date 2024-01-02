@@ -1,15 +1,17 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/View/Ball/Ball.gd" type="Script" id=1]
 
 [sub_resource type="PhysicsMaterial" id=5]
-friction = 0.0
+friction = 0.1
 bounce = 0.1
-
-[sub_resource type="SphereShape" id=3]
-radius = 0.0263346
 
 [sub_resource type="SphereMesh" id=2]
 radius = 0.5
 height = 1.0
+
+[sub_resource type="SphereShape" id=3]
+radius = 0.270521
 
 [node name="Ball_RB" type="RigidBody"]
 mass = 10.0
@@ -17,14 +19,17 @@ physics_material_override = SubResource( 5 )
 contacts_reported = 1
 contact_monitor = true
 can_sleep = false
+script = ExtResource( 1 )
+
+[node name="ball" type="MeshInstance" parent="."]
+physics_interpolation_mode = 2
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0 )
+mesh = SubResource( 2 )
+skeleton = NodePath("../..")
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-pause_mode = 2
 physics_interpolation_mode = 2
+process_priority = 15
 shape = SubResource( 3 )
 
-[node name="ball" type="MeshInstance" parent="CollisionShape"]
-physics_interpolation_mode = 2
-transform = Transform( 0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0, 0, 0 )
-mesh = SubResource( 2 )
-skeleton = NodePath("../../..")
+[connection signal="body_shape_entered" from="." to="." method="_on_Ball_RB_body_shape_entered"]

@@ -38,17 +38,17 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -50 )
 visible = false
 
 [node name="Ball_RB" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0279612, 0.0871025, -1.13601 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0279612, 1.1671, -1.13601 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 0.963993, 0.265926, 0, -0.265926, 0.963993, 0, 0.73322, -0.238231 )
+transform = Transform( 1, 0, 0, 0, 0.963993, 0.265926, 0, -0.265926, 0.963993, 0, 4.86322, 3.82177 )
 
 [node name="Bat" parent="." instance=ExtResource( 7 )]
-transform = Transform( -0.980191, 0.197837, -0.00923578, -0.197851, -0.980232, 0.000635523, -0.00892748, 0.00245024, 0.999957, -0.0877087, 0.526676, -1.07659 )
+transform = Transform( -0.980191, 0.197837, -0.00923578, -0.197851, -0.980232, 0.000635523, -0.00892748, 0.00245024, 0.999957, -1.69771, 4.84668, -0.76659 )
 mass = 20.4082
 
 [node name="end2" type="MeshInstance" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.30063 )
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, -1.30063 )
 mesh = ExtResource( 4 )
 
 [node name="StaticBody" type="StaticBody" parent="end2"]
@@ -58,11 +58,11 @@ physics_material_override = SubResource( 9 )
 shape = SubResource( 8 )
 
 [node name="flag-red" type="MeshInstance" parent="."]
-transform = Transform( -0.996195, 0, 0.0871556, 0, 1, 0, -0.0871556, 0, -0.996195, 0, 0, -2.2825 )
+transform = Transform( -9.96195, 0, 0.871556, 0, 10, 0, -0.871556, 0, -9.96195, 0, -0.32, -11.2425 )
 mesh = ExtResource( 5 )
 
 [node name="hole-round" type="MeshInstance" parent="."]
-transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, -2.28581 )
+transform = Transform( -10, 0, -1.50996e-06, 0, 10, 0, 1.50996e-06, 0, -10, 0, 0, -11.2158 )
 mesh = ExtResource( 6 )
 
 [node name="StaticBody" type="StaticBody" parent="hole-round"]
